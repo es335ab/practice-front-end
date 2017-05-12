@@ -20,7 +20,19 @@
 
 以上
 
-### 2.hamlの作成
+### 2.CSSの作成
+
+目的：CSSによってhtmlをレイアウトおよび装飾するのに慣れること
+
+1. 今回作業用にGitのブランチを切る。`git checkout -b feature/css`
+2. 1で作成したhtmlから、cssを読み込む。`<link rel="stylesheet" media="all" href="/stylesheets/style.css" />`
+3. `source/stylesheets/style.css` に、スタイルを記述してレイアウトしていく
+4. remoteにpushしてmasterブランチに対してプルリクエストをする
+5. 講師の確認をもらい、masterブランチに今回の作業をマージする
+
+以上
+
+### 3.hamlの作成
 
 目的：hamlの理解および慣れること
 
@@ -37,7 +49,7 @@
 
 以上
 
-### 3.ヘッダーのcssをscssで書く
+### 4.ヘッダーのcssをscssで書く
 
 目的：htmlとcssの役割分担を理解すること。css,scssに慣れること
 
@@ -54,7 +66,7 @@
 
 以上
 
-### 5.ヘッダー部分、およびヘッダー以外の部分をSMACSSに適応する
+### 6.ヘッダー部分、およびヘッダー以外の部分をSMACSSに適応する
 
 目的：SMACSSおよびSMACSS必要性の理解
 
@@ -74,9 +86,9 @@
 
 以上
 
-### 5.ヘッダー以外ののscssをSMACSSに沿って書く
+### 7.ヘッダー以外ののscssをSMACSSに沿って書く
 
-### 6. jsで、、
+### 8. jsで、、
 
 
 
