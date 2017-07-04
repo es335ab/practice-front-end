@@ -595,14 +595,14 @@ body{
   padding:60px 0;
 }
 
-h1{
+.site-header h1{
   text-align:center;
   margin:0px;
   font-size:45px;
 }
 
-.description{
-  width:680px;
+.site-header .description{
+  max-width:680px;
   display:block;
   margin:0 auto;
   height:69px;
@@ -620,7 +620,7 @@ h1{
   display:flex;
 }
 
-.col-1{
+.col-left{
   width:260px;
   margin:0 30px;
   background-color:white;
@@ -634,7 +634,7 @@ h1{
 list-style:none;
 padding:0;
 }
-li{
+.main-nav li{
   border-bottom: 1px solid #dcdcdc;
   width:260px;
   height:53px;
@@ -651,7 +651,7 @@ h3{
 .right{
   font-size: :14px;
 }
-.col-2{
+.col-center{
   width:760px;
   background-color:white;
   margin-right:30px;
@@ -672,12 +672,12 @@ footer{
   border-top: 1px solid #dcdcdc;
 }
 
-.col-3{
+.col-right{
   width:300px;
   background-color:white;
   height:1100px;
 }
-.footer{
+.global-footer{
   background-color:lightgray;
 }
 .footer-wedge{
@@ -688,7 +688,7 @@ footer{
   margin:0 auto;
   padding:0 40px;
 }
-.footerh3{
+.footer-h3{
   border-bottom:2px solid;
   color:white;
   margin:0;
