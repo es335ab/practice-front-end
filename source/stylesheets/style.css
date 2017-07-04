@@ -595,6 +595,13 @@ body{
   padding:60px 0;
 }
 
+@media screen and (max-width:500px){
+      .site-header{
+        padding:40px 0;
+      }
+  }
+
+
 .site-header h1{
   text-align:center;
   margin:0px;
