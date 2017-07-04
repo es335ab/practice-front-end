@@ -1,12 +1,75 @@
----
-title: Welcome to Middleman
----
 
-.welcome
-  .logo
-    = image_tag "middleman-logo.svg"
-  %h1 Middleman is Running
-  %p.doc
-    = link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank"
-  / .doc
-/ .welcome
+%header.site-header
+  %h1
+    TATAMI
+    %a{:href=>"index_draft.html"}
+  %h2.description
+    A premium responsive WordPress theme by Elmastudio with mobile-first, off-canvas layout and a beautiful, minimal web design. Find out more about the Tatami theme or ask us a question on the Tatami theme page.
+
+  .container
+
+    %section.col-left
+      %nav.main-nav
+        %form
+          %input{:type=>"text",:class=>"field",:name=>"s",:id=>"s",:placeholder=>"Search......"}
+          %input{:type=>"submit",:class=>"submit",:value=>"Search",:name=>"submit",:id=>"searchsubmit"}
+
+      .menu-container
+        %ul.main-nav
+          %li
+            %a{:href=>"#"}Menu1
+          %li
+            %a{:href=>"#"}Menu2
+          %li
+            %a{:href=>"#"}Menu3
+          %li
+            %a{:href=>"#"}Menu4
+          %li
+            %a{:href=>"#"}Menu5
+          %li
+            %a{:href=>"#"}Menu6
+      %aside.text-widget
+        %h3
+          TEXT WIDGET
+        .subtext Candy canes chocolate cake candy canes brownie. Muffin jelly beans halvah cookie danish pie candy canes pastry. Toffee tart apple pie tootsie roll. Applicake ice cream toffee jelly ice cream halvah sweet roll biscuit.
+
+
+
+    %section.col-center
+      .contents
+        %img{:alt => "contents",:height=>"465",:width=>"760",:src => "image/pc.gif"}/
+      %h2
+        %a{:href=>"#"} Tatami Premium WordPress Theme
+      .entry-contents
+        %p Tatami is a new Premium WordPress theme by Elmastudio with a beautiful, minimal theme design and lots of modern theme features. Tatami has a responsive, mobile-first, off-canvas layout so your website will look as awesome on mobile devices as it looks desktop screens. The theme has two sidebars, a footer widget area and an easy-to-use theme options page. The big thumbnail option makes it easy to feature your best posts, alternatively you have also two smaller thumbnail options.
+      %footer.content-footer
+
+
+
+    %section.col-right
+
+      %aside.text-widget
+        %h3
+          POPULAR POSTS
+        .subtext Candy canes chocolate cake candy canes brownie. Muffin jelly beans halvah cookie danish pie candy canes pastry. Toffee tart apple pie tootsie roll. Applicake ice cream toffee jelly ice cream halvah sweet roll biscuit.
+
+      %aside.text-widget
+        %h3
+          Social Link
+        .subtext Candy canes chocolate cake candy canes brownie. Muffin jelly beans halvah cookie danish pie candy canes pastry. Toffee tart apple pie tootsie roll. Applicake ice cream toffee jelly ice cream halvah sweet roll biscuit.
+
+      %aside.text-widget
+        %h3
+          RECENT COMMENTS
+        .subtext Candy canes chocolate cake candy canes brownie. Muffin jelly beans halvah cookie danish pie candy canes pastry. Toffee tart apple pie tootsie roll. Applicake ice cream toffee jelly ice cream halvah sweet roll biscuit.
+
+      %aside.text-widget
+        %h3
+          CATEGORIES
+        .subtext Candy canes chocolate cake candy canes brownie. Muffin jelly beans halvah cookie danish pie candy canes pastry. Toffee tart apple pie tootsie roll. Applicake ice cream toffee jelly ice cream halvah sweet roll biscuit.
+
+
+
+  %footer.global-footer
+    .footer-wedge
+      %h3.footer-h3 About Us
