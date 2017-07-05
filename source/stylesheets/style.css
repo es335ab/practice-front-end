@@ -596,10 +596,10 @@ body{
 }
 
 @media screen and (max-width:500px){
-      .site-header{
-        padding:40px 0;
-      }
+　.site-header{
+    padding:40px 0;
   }
+}
 
 
 .site-header h1{
