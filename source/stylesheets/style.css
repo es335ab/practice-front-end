@@ -590,7 +590,7 @@ body{
   margin:0px;
 }
 
-.site-header{
+.ly-global-header{
   height:144px;
   padding:60px 0;
 }
@@ -602,13 +602,13 @@ body{
 }
 
 
-.site-header h1{
+.ly-global-header h1{
   text-align:center;
   margin:0px;
   font-size:45px;
 }
 
-.site-header .description{
+.ly-global-header .description{
   max-width:680px;
   display:block;
   margin:0 auto;
@@ -627,28 +627,28 @@ body{
   display:flex;
 }
 
-.col-left{
+.ly-left-bar{
   width:260px;
   margin:0 30px;
   background-color:white;
   height:1100px;
 }
 
-#search-form{
+#mod-search-form{
   padding:9px;
 }
 .main-nav{
 list-style:none;
 padding:0;
 }
-.main-nav li{
+.mod-li{
   border-bottom: 1px solid #dcdcdc;
   width:260px;
   height:53px;
   text-align: center;
 }
 
-.text-widget{
+.mod-text-widget{
   margin-top:60px;
   padding:0 30px;
 }
@@ -659,10 +659,7 @@ h3{
   border-bottom: 1px solid #dcdcdc;
 }
 
-.right{
-  font-size: :14px;
-}
-.col-center{
+.ly-main{
   width:760px;
   background-color:white;
   margin-right:30px;
@@ -679,11 +676,11 @@ a{
 p{
   padding: 0 40px 40px;
 }
-.content-footer{
+.ly-content-footer{
   border-top: 1px solid #dcdcdc;
 }
 
-.col-right{
+.ly-right-bar{
   width:300px;
   background-color:white;
   height:1100px;
