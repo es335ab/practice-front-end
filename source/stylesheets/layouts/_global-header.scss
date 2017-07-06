@@ -1,11 +1,10 @@
-.site-header{
-  height: 144px;
-  padding:60px 0;
-  background-color: lightblue;
-
+.ly-global-header{
+  height:144px;
+  padding: 60px 0;
+  background-color: white;
   h1{
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 45px;
   }
   .description{
@@ -18,10 +17,4 @@
     text-align: center;
     color: #bbb;
   }
-
-
-@media screen and (max-width:500px){
-  .site-header{
-    padding:40px;
-    }
-  }
+}

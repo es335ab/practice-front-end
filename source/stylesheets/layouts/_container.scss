@@ -1,0 +1,28 @@
+.ly-container{
+  background-color:lightgrey;
+  width:100%;
+  height:1200px;
+  padding-top:30px;
+  display:flex;
+}
+
+
+.ly-global-nav-block {
+  // ナビゲーションで共通的に使用するUI
+  background-color: white;
+  height:1100px;
+
+  &.is-left {
+    // 左ナビだけのUIについての処理
+    width: 260px;
+    margin: 0 30px;
+    .main-nav{
+      list-style: none;
+      padding: 0;
+    }
+  }
+  &.is-right {
+    // 右ナビだけのUIについての処理
+    width:300px;
+  }
+}

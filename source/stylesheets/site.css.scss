@@ -1,5 +1,8 @@
 @charset "utf-8";
-@import "normalize";
-@import "reset";
-@import "footer";
-@import "header";
+@import "./layouts/all";
+@import "./modules/all";
+
+
+body{
+  margin:0px;
+}
