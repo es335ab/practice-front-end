@@ -7,25 +7,24 @@
 
 .ly-container
 
-  %section.ly-left-bar
+  .ly-global-nav-block.is-left
     %nav.main-nav
       %form#mod-search-form
         %input{:type=>"text",:class=>"field",:name=>"s",:id=>"s",:placeholder=>"Search......"}
         %input{:type=>"submit",:class=>"submit",:value=>"Search",:name=>"submit",:id=>"searchsubmit"}
 
-    .menu-container
-      %ul.main-nav
-        %li.mod-li
+      %ul.mod-main-nav
+        %li
           %a{:href=>"#"}Menu1
-        %li.mod-li
+        %li
           %a{:href=>"#"}Menu2
-        %li.mod-li
+        %li
           %a{:href=>"#"}Menu3
-        %li.mod-li
+        %li
           %a{:href=>"#"}Menu4
-        %li.mod-li
+        %li
           %a{:href=>"#"}Menu5
-        %li.mod-li
+        %li
           %a{:href=>"#"}Menu6
     %aside.mod-text-widget
       %h3
@@ -34,7 +33,7 @@
 
 
 
-  %section.ly-center
+  .ly-center
     .contents
       %img{:alt => "contents",:height=>"465",:width=>"760",:src => "images/pc.gif"}/
     %h2
@@ -45,7 +44,7 @@
 
 
 
-  %section.ly-right-bar
+  .ly-global-nav-block.is-right
 
     %aside.mod-text-widget
       %h3

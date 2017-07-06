@@ -627,7 +627,7 @@ body{
   display:flex;
 }
 
-.ly-left-bar{
+.ly-global-nav-block.is-left{
   width:260px;
   margin:0 30px;
   background-color:white;
@@ -680,7 +680,7 @@ p{
   border-top: 1px solid #dcdcdc;
 }
 
-.ly-right-bar{
+.ly-global-nav-block.is-right{
   width:300px;
   background-color:white;
   height:1100px;
