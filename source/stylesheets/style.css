@@ -577,3 +577,128 @@ body {
 .sidebar-column h3 {
   text-decoration: underline;
 }
+
+
+
+
+
+
+
+------------------------------------------------------
+
+body{
+  margin:0px;
+}
+
+.ly-global-header{
+  height:144px;
+  padding:60px 0;
+}
+
+@media screen and (max-width:500px){
+　.site-header{
+    padding:40px 0;
+  }
+}
+
+
+.ly-global-header h1{
+  text-align:center;
+  margin:0px;
+  font-size:45px;
+}
+
+.ly-global-header .description{
+  max-width:680px;
+  display:block;
+  margin:0 auto;
+  height:69px;
+  padding-top:23px;
+  font-size: 0.875rem;
+  text-align:center;
+  color: #bbb;
+}
+
+.container{
+  background-color:lightgrey;
+  width:100%;
+  height:1200px;
+  padding-top:30px;
+  display:flex;
+}
+
+.ly-global-nav-block.is-left{
+  width:260px;
+  margin:0 30px;
+  background-color:white;
+  height:1100px;
+}
+
+#mod-search-form{
+  padding:9px;
+}
+.main-nav{
+list-style:none;
+padding:0;
+}
+.mod-li{
+  border-bottom: 1px solid #dcdcdc;
+  width:260px;
+  height:53px;
+  text-align: center;
+}
+
+.mod-text-widget{
+  margin-top:60px;
+  padding:0 30px;
+}
+.subtext{
+  font-size: 14px;
+}
+h3{
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.ly-main{
+  width:760px;
+  background-color:white;
+  margin-right:30px;
+  height:900px;
+}
+h2{
+  padding:40px 40px 25px 40px;
+  color:black;
+}
+a{
+  color:black;
+  text-decoration: black;
+}
+p{
+  padding: 0 40px 40px;
+}
+.ly-content-footer{
+  border-top: 1px solid #dcdcdc;
+}
+
+.ly-global-nav-block.is-right{
+  width:300px;
+  background-color:white;
+  height:1100px;
+}
+.ly-global-footer{
+  background-color:lightgray;
+}
+.footer-wedge{
+  width:680px;
+  height:500px;
+  background-color:black;
+  display:block;
+  margin:0 auto;
+  padding:0 40px;
+}
+.footer-h3{
+  border-bottom:2px solid;
+  color:white;
+  margin:0;
+  padding-top:40px;
+}

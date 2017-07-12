@@ -28,6 +28,10 @@
 $ bundle install --path vendor/bundle
 ```
 
+
+
+
+
 - MiddlemanのWebサーバーを起動させるために下記のコマンドを打ち込む
 
 ```
